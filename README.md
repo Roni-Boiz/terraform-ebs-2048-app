@@ -1,7 +1,5 @@
 # AWS EBS 2048 Application
 
-![app](image)
-
 ## Introduction
 
 This repository demonstrates how to deploy a web application on AWS Elastic Beanstalk. AWS Elastic Beanstalk simplifies the deployment process by automatically managing the underlying infrastructure, allowing you to focus on writing code.
@@ -266,10 +264,7 @@ resource "aws_elastic_beanstalk_environment" "app-2048-env" {
     - or -
     $ docker push <ecr_repo_uri>:<tag>
     ```
-
-    > [!TIP]
-    > All the required code snippets to push the image to ECR is provided by the AWS ECR `push commands` buton in ECR repository. Please modify the image name according to your image name.
-
+    ***All the required code snippets to push the image to ECR is provided by the AWS ECR `push commands` buton in ECR repository. Please modify the image name according to your image name.***
 
 
     **Step 02**: In the current `main.tf` comment out resource block from line nn (116-122) and uncomment the resource block from line no (124-129).
@@ -290,7 +285,7 @@ resource "aws_elastic_beanstalk_environment" "app-2048-env" {
         acl          = "private"
     }
     ```
-
+    
     **Step 3**: apply the changes
     ```bash
     $ terraform validate
@@ -305,11 +300,12 @@ resource "aws_elastic_beanstalk_environment" "app-2048-env" {
 
     Note down ***application_domain_name*** :- EC2 Public DNS   and ***application url*** :- EC2 public IP
 
-    ![output](image)
+    ![output](https://github.com/user-attachments/assets/e0f552a6-f9b7-4f85-a563-d8fee1ddb7ae)
+
 
 8. Open the browser and enter the application_domain_name in address bar (Eg: [http://\<application-env\>.us-east-1.elasticbeanstalk.com](http://\<application-env\>.us-east-1.elasticbeanstalk.com))
 
-    ![app](image)
+    ![app](https://github.com/user-attachments/assets/5222f7b3-cf61-4051-bbc8-04e4b4529479)
 
 9. Destroy the project resources<br>
     `$ terraform destroy -auto-approve`
