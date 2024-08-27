@@ -300,7 +300,7 @@ resource "aws_elastic_beanstalk_environment" "app-2048-env" {
 
     Note down ***application_domain_name*** :- EC2 Public DNS   and ***application url*** :- EC2 public IP
 
-    ![output](https://github.com/user-attachments/assets/e0f552a6-f9b7-4f85-a563-d8fee1ddb7ae)
+    ![output](https://github.com/user-attachments/assets/999972bf-0e8e-4a4b-a7db-4f5aec3ef469)
 
 
 8. Open the browser and enter the application_domain_name in address bar (Eg: [http://\<application-env\>.us-east-1.elasticbeanstalk.com](http://\<application-env\>.us-east-1.elasticbeanstalk.com))
