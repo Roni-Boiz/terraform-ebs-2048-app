@@ -9,10 +9,9 @@ This repository demonstrates how to deploy a web application on AWS Elastic Bean
 
 1. **AWS Account:** Sign up at [aws.amazon.com](https://aws.amazon.com/).
 2. **AWS CLI:** Install the AWS CLI for managing AWS services via the command line. [AWS CLI Installation Guide](https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2.html).
-3. **Docker / DockerHub Account:** For deploying a containerized application, ensure Docker is installed. and redisted for DockerHub.
+3. **Docker / DockerHub Account:** For deploying a containerized application, ensure Docker is installed. and register for DockerHub.
 4. **Terraform:** To create infrastructure to deploy and manage the application install terrform. [Terrform installation guide](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli).
 
-Docker (Optional): 
 
 ## Steps to deploy Application in EKS
 
