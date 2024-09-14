@@ -1,5 +1,7 @@
 # AWS EBS 2048 Application
 
+![Elastic Beanstalk](https://github.com/user-attachments/assets/5366ed40-56d6-4e30-9979-f40fc7ddc523)
+
 ## Introduction
 
 This repository demonstrates how to deploy a web application on AWS Elastic Beanstalk. AWS Elastic Beanstalk simplifies the deployment process by automatically managing the underlying infrastructure, allowing you to focus on writing code.
